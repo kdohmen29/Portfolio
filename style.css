@@ -10,13 +10,14 @@ body {
 
 .pad {
     padding: 0px;
+    color: white;
 }
 
 
 .box {
     text-align: center;
     height: 230px;
-    margin: 10px;
+    margin: 0px;
     position: relative;
 }
 
