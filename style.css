@@ -5,6 +5,7 @@ body {
 }
 
 .header {
+  margin-top: 40px;
     margin-bottom: 40px;
 }
 
@@ -14,6 +15,7 @@ body {
   padding: 10px;
   width: 100px;
   text-align: center;
+  transition: 1s;
 }
 
 .pad {
@@ -25,6 +27,10 @@ body {
   text-align: end;
 }
 
+.zoom {
+  overflow: hidden;
+}
+
 
 .box {
     text-align: center;
@@ -32,7 +38,8 @@ body {
     margin: 0px;
     position: relative;
     filter: grayscale(100%);
-
+    transition: 1.5s;
+    
 }
 
 
@@ -41,61 +48,71 @@ body {
     height: 100%;
     object-fit: cover;
     display: block;
-    width: 100%;
+    transition: 3s;
+    
 }
 
 
 /* ---hover effect--- */
 
-
+  #mail-btn:hover {
+    background-color: black;
+    color: white;
+    
+  }
   
   .overlay {
     position: absolute;
-    bottom: 100%;
+    bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgb(0, 0, 0);
+    background-color: white;
     overflow: hidden;
-    opacity: .75;
+    opacity: 0;
     width: 100%;
-    height:0;
+    height:100%;
+    transition: .75s;
+
   }
 
   .box:hover {
     filter: grayscale(0%);
-    transition: ease;
+    
+  }
+  .box:hover .image {
+    transform: scale(1.5);
+    transition: transform 20s;
 
   }
 
  
   
   .box:hover .overlay {
-    bottom: 0;
     height: 100%;
-
-    
+    opacity: .82;
   }
 
  
   
   .text {
-    color: white;
+    color: rgb(102, 102, 102);
     font-size: 15px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     text-align: center;
     opacity: 1;
-  }
+    padding: 15px;
+    transform: initial;
+    }
 
 /* ---footer--- */
 
 .footer {
     text-align: center;
     margin: 20px;
+}
+
+.copyright {
+  font-size: 18px;
 }
 
 /* Badges------ */
