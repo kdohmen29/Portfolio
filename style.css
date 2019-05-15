@@ -68,7 +68,7 @@ button:hover {
 
 .box {
   text-align: center;
-  height: 230px;
+  height: 250px;
   margin: 0px;
   position: relative;
   filter: grayscale(100%);
@@ -106,13 +106,11 @@ button:hover {
   width: 100%;
   height: 100%;
   transition: .75s;
+  overflow: scroll;
 
 }
 
-.box:hover {
-  filter: grayscale(0%);
 
-}
 
 .box:hover .image {
   transform: scale(1.5);
@@ -132,12 +130,22 @@ button:hover {
 
 .text {
   color: white;
-  font-size: 15px;
+  font-size: 13px;
   position: absolute;
   text-align: center;
   opacity: 1;
   padding: 50px;
   padding-top: 20px;
+}
+
+.languages {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
 
 /* ---footer--- */
