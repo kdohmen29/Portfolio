@@ -33,7 +33,7 @@ body {
   transition: .75s;
 }
 
-h3 {
+h4 {
   color: rgb(255, 255, 255);
   margin: 0px;
   padding: 5px;
@@ -131,7 +131,6 @@ button:hover {
 .text {
   color: white;
   font-size: 13px;
-  position: absolute;
   text-align: center;
   opacity: 1;
   padding: 50px;
