@@ -131,6 +131,16 @@ button:hover {
 
 }
 
+.textbox {
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  opacity: 1;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 20px;
+}
+
 
 
 .text {
