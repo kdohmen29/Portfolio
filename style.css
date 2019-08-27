@@ -20,7 +20,7 @@ body {
 #mail-btn {
   color: white;
   background-color: black;
-  padding: 10px;
+  padding: 10px 20px;
   transition: .5s;
   text-decoration: none;
 }
@@ -44,7 +44,8 @@ h4 {
 }
 
 button {
-  margin: 10px;
+  margin: 25px 10px;
+  padding: 5px 20px;
   transition: .5s;
   opacity: 1;
   color: white;
@@ -134,9 +135,7 @@ button:hover {
   font-size: 13px;
   text-align: center;
   opacity: 1;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 20px;
+  padding: 40px 20%;
 }
 
 
@@ -146,8 +145,8 @@ button:hover {
   font-size: 13px;
   text-align: center;
   opacity: 1;
-  padding: 50px;
-  padding-top: 20px;
+  margin: 0;
+  padding: 40px 50px;
 }
 
 .languages {
@@ -168,13 +167,13 @@ button:hover {
 }
 
 .copyright {
-  font-size: 14px;
+  font-size: 10px;
 }
 
 /* Badges------ */
 
 .badges {
-  width: 10%;
+  width: 7%;
   filter: grayscale(100%);
   border-radius: 3px;
   margin: 10px;
