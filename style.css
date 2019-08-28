@@ -20,15 +20,12 @@ body {
 
 .name {
   margin-bottom: 0;
-  border-bottom: solid white 2px;
   padding-left: 0px;
 }
 
 .label {
   padding-left: 0;
   width: 75%;
-  border-top: solid white 1px;
-  margin-top: 4px;
 }
 
 
