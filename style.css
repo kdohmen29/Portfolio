@@ -1,7 +1,7 @@
 body {
   background-color: black;
   color: white;
-  margin-top: 15px;
+  margin: 0;
   font-family: 'Raleway', sans-serif;
   filter: grayscale(100%);
 }
@@ -15,8 +15,20 @@ body {
 .header {
   margin-top: 0;
   margin-bottom: 0px;
-  padding: 30px;
+  padding: 25px 35px;
 }
+
+.name {
+  margin-bottom: 0;
+  border-bottom: solid white 2px;
+  padding-left: 0px;
+}
+
+.label {
+  padding-left: 0;
+  width: 75%;
+}
+
 
 #mail-btn {
   color: white;
@@ -63,7 +75,10 @@ button:hover {
 }
 
 .right {
+  margin: 5px 0;
   text-align: end;
+  width: 20%;
+  padding-left: 0px;
 }
 
 .zoom {
